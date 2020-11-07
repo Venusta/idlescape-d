@@ -1,0 +1,20 @@
+{
+    "compilerOptions": {
+      "allowSyntheticDefaultImports": true,
+      "noImplicitAny": true,
+      "moduleResolution": "node",
+      "baseUrl": "./",
+      "sourceMap": true,
+      "module": "commonjs",
+      "target": "ES6",
+      "strict": true,
+      "outDir": "build",
+      "allowJs": true,
+      "noEmit": false,
+      "noImplicitThis": true,
+      "strictNullChecks": true,
+      "lib": ["dom", "es2019", "ES6"],
+      "resolveJsonModule": true,
+    },
+    "exclude": ["node_modules"]
+}
